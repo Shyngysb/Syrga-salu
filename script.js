@@ -1,0 +1,1 @@
+const t=new Date("2026-08-07T13:00:00");function u(){let d=t-new Date();if(d<0){count.textContent="Басталды!";return;}let s=Math.floor(d/1000),D=Math.floor(s/86400);s%=86400;let h=Math.floor(s/3600);s%=3600;let m=Math.floor(s/60);let sec=s%60;count.textContent=`${D} күн ${h} сағ ${m} мин ${sec} сек`;}u();setInterval(u,1000);
